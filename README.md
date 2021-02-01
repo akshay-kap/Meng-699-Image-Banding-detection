@@ -1,6 +1,7 @@
 ## FocusLiteNN
 
-This is the official **PyTorch** and **MATLAB** implementations of our MICCAI 2020 paper [*"FocusLiteNN: High Efficiency Focus Quality Assessment for Digital Pathology"*](https://arxiv.org/abs/2007.06565).
+This is the official **Python Tensorflow ** implementations of our ICASSP 2020 paper [*"CAPTURING BANDING IN IMAGES: DATABASE CONSTRUCTION AND
+OBJECTIVE ASSESSMENT"*](https:..LINK TO PAPER).
 
 
 - [1. Brief Introduction](#1-brief-introduction)
