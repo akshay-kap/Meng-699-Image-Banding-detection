@@ -1,4 +1,4 @@
-## FocusLiteNN
+## DBI (Deep Banding Index)
 
 This is the official **Python Tensorflow** implementations of our ICASSP 2020 paper [*"CAPTURING BANDING IN IMAGES: DATABASE CONSTRUCTION AND
 OBJECTIVE ASSESSMENT"*](https:..LINK TO PAPER).
