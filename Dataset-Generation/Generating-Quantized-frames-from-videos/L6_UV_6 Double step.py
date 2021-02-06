@@ -81,11 +81,9 @@ def step2():
 			fps=int(name[-6:-4])
 			# print("fps...",fps)
 			out=cv2.VideoWriter('./mp4/{0}_6b.mp4'.format(name[:-4]),fourcc,fps,(1920,1080))
-			#print(lum_step)
 			while 1:
 				ret, frame = cap.read(lum_step)
 				out.write(frame)
-				# print(frame)
 				if ret:
 					pass
 				else:
@@ -119,10 +117,4 @@ if __name__ == "__main__":
 	step2()
 	step3()
 	step4()
-
-
-
-
-
-
 
