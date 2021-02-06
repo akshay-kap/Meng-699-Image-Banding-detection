@@ -7,11 +7,11 @@ The bit depth reduction is applied in Luma and chroma channels by following ways
 3. 8 bit Chroma channel and Luma bit first reduced to 6 bit channel depth, and then both channels are scaled up again as 8 bit depth channels.
 [`L6_UV_6 converting to banding images directly 0.2FPS.py`]
 4. 8 bit Chroma channel and Luma bit first reduced to 6 bit channel depth, and 5 bit channel depth, and then both channels are scaled up again as 8 bit depth channels., this step of bit reduction is performed twice.
-  [refer `L6 Doube step converting to banding images directly 0.2FPS.py`]
+  refer [`L6_Double_Step.py`](L6_Double_Step.py )
 5. 8 bit Chroma channel and Luma bit first reduced to 6 bit channel depth and then scaled up again as 8 bit depth, this step of bit reduction is performed twice.
 [refer `L6_UV_5 Double step converting to banding images directly 0.2FPS.py`]
 6. 8 bit Chroma channel and Luma bit first reduced to 6 bit channel depth, and then both channels are scaled up again as 8 bit depth channels, this step of bit reduction is performed twice.
 [ refer `L6_UV_6 Double step converting to banding images directly 0.2FPS.py`]
 
 [`data/FocusPath_full_split1.txt`](data/FocusPath_full_split1.txt)
-[`L6_Double_Step.py`](L6_Double_Step.py )
+
