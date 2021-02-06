@@ -11,6 +11,6 @@ The bit depth reduction is applied in Luma and chroma channels by following ways
 5. 8 bit Chroma channel and Luma bit first reduced to 6 bit channel depth and then scaled up again as 8 bit depth, this step of bit reduction is performed twice.
  __Refer__ [`L6_UV_6_Double_Step.py `](L6_UV_6_Double_Step.py)
 6. 8 bit Chroma channel and Luma bit first reduced to 6 bit channel depth, and then both channels are scaled up again as 8 bit depth channels, this step of bit reduction is performed twice.
- __Refer__ [`L6_UV_5 Double_Step.py`](L6_UV_5 Double_Step.py)
+ __Refer__ [`L6_UV_5_Double_Step.py`](L6_UV_5_Double_Step.py)
 
 
