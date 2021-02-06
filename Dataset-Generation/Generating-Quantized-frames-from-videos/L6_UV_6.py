@@ -8,9 +8,7 @@ class VideoCaptureYUV:
 	def __init__(self, filename, size):
 		self.height, self.width = size
 		self.frame_len = int(self.width * self.height * 3 / 2)
-		#print(self.frame_len)
 		self.f = open(filename, 'rb')
-		#self.f_new=open("test111.yuv", 'wb+')
 		self.shape = (int(self.height*1.5), self.width)
 
 	def quantize(self,y_comp,bits,bdepth=8):
@@ -23,10 +21,6 @@ class VideoCaptureYUV:
 		y_comp=np.clip(y_comp+step,a_min = 2, a_max = 255)
 		return y_comp        
 	def read_raw(self):
-#         raw = self.f.read(2*self.frame_len)
-#         yuv = np.frombuffer(raw, dtype=np.uint16)
-#         print(np.shape(yuv))
-#         yuv = yuv.reshape(self.shape)
 		try:
 			raw = self.f.read(self.frame_len)
 			yuv = np.frombuffer(raw, dtype=np.uint8)
@@ -50,11 +44,8 @@ class VideoCaptureYUV:
 		yuv=np.concatenate((y,uv),axis=0)
 
 		yuv_mod = yuv.reshape(self.frame_len,)
-		#print(np.shape(yuv_mod))
-		#raw_quant = self.f_new.write(bytearray(yuv_mod))
 		bgr = cv2.cvtColor(yuv, cv2.COLOR_YUV2RGB_I420)
 		rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
-		# gray=gray = cv2.cvtColor(yuv, cv2.COLOR_BGR2GRAY)
 		return ret, rgb
 
 def step1():
@@ -65,8 +56,6 @@ def step1():
 	for name in files:
 		cmd="ffmpeg -i {0} -c:v rawvideo -pix_fmt yuv420p {1}".format(inputfilepath+"/"+name,outputfilepath+"/"+name[:-3]+"yuv") 
 		check_output(cmd, shell=True).decode()
-		print(cmd)
-		#os.remove(inputfilepath+"/"+name)
 	print("shukar hai!")
 	print("Step 1 completed")
 	for name in files:
@@ -78,15 +67,7 @@ def step2():
 	files=os.listdir(path)
 	for name in files:
 		filename=path+'\\'+name
-		# filename="0165_fps30.yuv"
 		print(filename)
-		# size = (1080, 1920)
-		# cap = VideoCaptureYUV(filename, size)
-		# fourcc=cv2.VideoWriter_fourcc(*'MP4V')
-		# fourcc=0x7634706d
-		# fps=int(name[-6:-4])
-		# print("hey...",fps)
-		
 		for lum_step in range(0,1):
 			size = (1080, 1920)
 			cap = VideoCaptureYUV(filename, size)
@@ -103,12 +84,8 @@ def step2():
 				if ret:
 					pass
 				else:
-					break
-		print("a file done")     
+					break   
 	print("step 2 completed")
-
-	#cv2.destroyAllWindows()
-
 
 def step3():
 	#step3
@@ -136,17 +113,9 @@ def step4():
 
 
 if __name__ == "__main__":
-	print("oh yes we started")
 	step1()
 	step2()
 	step3()
 	step4()
-	print("all done")
-
-
-
-
-
-
 
 
