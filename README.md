@@ -1,7 +1,7 @@
 ## DBI (Deep Banding Index)
 
 This is the official **Python Tensorflow** implementations of our ICASSP 2020 paper [*"CAPTURING BANDING IN IMAGES: DATABASE CONSTRUCTION AND
-OBJECTIVE ASSESSMENT"*](https:..LINK TO PAPER).
+OBJECTIVE ASSESSMENT"*](https://2021.ieeeicassp.org/).
 
 
 - [1. Brief Introduction](#1-brief-introduction)
@@ -10,17 +10,13 @@ OBJECTIVE ASSESSMENT"*](https:..LINK TO PAPER).
   * [1.3 Results](#13-results)
   * [1.4 Citation](#14-citation)
 - [2. Dataset](#2-dataset)
-  * [2.1 TCGA@Focus](#21-tcgafocus)
-  * [2.2 Focuspath Full](#22-focuspath-full)
+  * [2.1 Banding Patches Dataset](#21-tcgafocus)
+  * [2.2 HD Images Dataset with Banded and NonBanded Region Information](#22-focuspath-full)
 - [3. Prerequest](#3-prerequest)
   * [3.1 Environment](#31-environment)
   * [3.2 Packages](#32-packages)
   * [3.3 Pretrained Models](#33-pretrained-models)
-- [4. Running the code](#4-running-the-code)
-  * [4.1 Python Demo for testing a single image](#41-python-demo-for-testing-a-single-image-heatmap-available)
-  * [4.2 MATLAB Demo for testing a single image](#42-matlab-demo-for-testing-a-single-image-non-efficient-implementation)
-  * [4.3 Training on **Focuspath_full**](#43-training-focuslitenn-on-focuspath_full)
-  * [4.4 Testing on **TCGA@Focus**](#44-testing-focuslitenn-on-tcgafocus)
+- [4. Python Demo for testing a single image](#4-running-the-code)
 - [5. Codes for comparing models](#5-codes-for-comparing-models)
 - [6. License](#6-license)
 
