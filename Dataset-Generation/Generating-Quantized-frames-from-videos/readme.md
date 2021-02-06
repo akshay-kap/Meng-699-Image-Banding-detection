@@ -14,4 +14,4 @@ The bit depth reduction is applied in Luma and chroma channels by following ways
 [ refer `L6_UV_6 Double step converting to banding images directly 0.2FPS.py`]
 
 [`data/FocusPath_full_split1.txt`](data/FocusPath_full_split1.txt)
-[`L6 converting to banding images directly 0.2FPS.py`](Meng-699-Image-Banding-detection/Dataset-Generation/Generating-Quantized-frames-from-videos/L6 converting to banding images directly 0.2FPS.py)
+[`L6_Double_Step.py`](L6_Double_Step.py )
