@@ -6,6 +6,6 @@ The model.predict method will provide ypu with a probablility associated with gi
 The following image describes the selected CNN_model architecture:
 
 <br>
-![CNN_Classifier Architecture](http://github.com/akshay-kap/Meng-699-Image-Banding-detection/edit/master/Pre-trained-models/CNN_model_architecture.png)
+![CNN_Classifier Architecture](CNN_model_architecture.png)
 
 ![](CNN_model_architecture.png)
