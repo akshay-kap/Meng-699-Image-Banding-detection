@@ -6,5 +6,5 @@
   - **Refer** [`Intermediate explorations for saving predictions as pickel Objects`](Saving_Predictions_as_pickle_objects.ipynb) <br>
   - **Refer**[`Threshold selection based on Precision-Recall Analysis`](Threshold_Analysis.ipynb)
   
-  The Precision Recall and F1-score values for different threshold values can be visualized from the curve below:
+  The Precision Recall and F1-score (Y axis) values for different threshold values (X axis) can be visualized from the curve below:
   ![](precision_recall.PNG)
