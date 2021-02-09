@@ -6,4 +6,4 @@ The model.predict method will provide ypu with a probablility associated with gi
 The following image describes the selected CNN_model architecture:
 
 <br>
-![CNN_Classifier Architecture](/CNN_model_architecture.png)
+![](/CNN_model_architecture.png)
