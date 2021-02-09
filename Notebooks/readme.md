@@ -7,4 +7,4 @@
   - **Refer**[`Threshold selection based on Precision-Recall Analysis`](Threshold_Analysis.ipynb)
   
   The Precision, Recall, and F1-score (Y axis) values for different threshold values (X axis) can be visualized from the curve below:
-  ![](precision_recall_f1_score.PNG)
+                                           ![](precision_recall_f1_score.PNG)
