@@ -13,4 +13,4 @@ The bit depth reduction is applied in Luma and chroma channels by following ways
 6. 8 bit Chroma channel and Luma bit first reduced to 6 bit channel depth, and then both channels are scaled up again as 8 bit depth channels, this step of bit reduction is performed twice.
  __Refer__ [`L6_UV_5_Double_Step.py`](L6_UV_5_Double_Step.py)
 
- In order to extract frames from videos, put videos in `./mp4` folder, also have `./yuv` and `./png` folders to run these files. The Quantized images will be saved in `./png` folder.
+ In order to extract quantized frames from videos, put videos in `./mp4` folder, also have `./yuv` and `./png` folders to run these files. The Quantized images will be saved in `./png` folder.
