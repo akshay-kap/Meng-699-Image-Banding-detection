@@ -10,8 +10,8 @@ OBJECTIVE ASSESSMENT"*](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_
   * [1.3 Results](#13-results)
   * [1.4 Citation](#14-citation)
 - [2. Dataset](#2-dataset)
-  * [2.1 Banding Patches Dataset](#21-hd Images Dataset with Banded and NonBanded region Information)
-  * [2.2 HD Images Dataset with Banded and NonBanded Region Information](#22-banding Patches Dataset)
+  * [2.1 Banding Patches Dataset](#2-dataset)
+  * [2.2 HD Images Dataset with Banded and NonBanded Region Information](#2-dataset)
 - [3. Prerequest](#3-prerequest)
   * [3.1 Environment](#31-environment)
   * [3.2 Packages](#32-packages)
@@ -77,18 +77,18 @@ The code has been tested on `Ubuntu 18.04` and on `Windows 10` with `Python 3.8`
 
   - The Pretrained CNN Classifier model could be found in folder `pretrained_model/`
 
-### 4.Relevant Source Codes
+### 4. Relevant Source Codes
 
 The [`Source`](src/) folder contains the source files used for generating semi-automatic labelled dataset, CNN_classifier training files and prediction file which can be used for generating Deep Banding index for any image. 
    - **XML to CSV:** the mask generated for HD images of size 1920x1080 were stored in XML files, these XML files contain information about the rectangular masking coordinates. These rectangular masking coordinates were generated using [`LabelImg`](https://github.com/tzutalin/labelImg).
-   - Refer [`XML_to_CSV`](xml_to_csv.py) for the code used to convert XML files region infomation to CSV files.
+   - Refer [`XML_to_CSV`](src/xml_to_csv.py) for the code used to convert XML files region infomation to CSV files.
    - **Patches Generation:** The patches are generated using heuristic rules from HD images and the obatined csv file about banded, non banded region information.
-   - Refer [`Patche Generation From HD Images`](Generating_patches_from_HD_images.py)
+   - Refer [`Patche Generation From HD Images`](src/Generating_patches_from_HD_images.py)
 - **CNN Classifier Training**: The CNN Classifier is trained using the [`Bannding Patches Dataset`](https://zenodo.org/badge/DOI/10.5281/zenodo.4512571.svg).
-  - Refer [`Training Script`](train.py) for CNN_classifier Training for Banded vs NonBanded classification tasks.
+  - Refer [`Training Script`](src/train.py) for CNN_classifier Training for Banded vs NonBanded classification tasks.
 - **Calculating Scores Using Deep Banding Index**: Deep Banding Index is calculated using CNN_model Classifer and the methodology described in the [`DBI paper`](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_banding.pdf). 
-  - Refer [`Deep Banding Index Prediction Script`](predict.py) for using DBI for out of sample image.
- - **Generating Banding Visualizations**: The script [`Deep Banding Map Generation`](Deep_Banding_Map.py) explains the working of Deep Banding Index by generating Deep Banding Maps for HD images.
+  - Refer [`Deep Banding Index Prediction Script`](src/predict.py) for using DBI for out of sample image.
+ - **Generating Banding Visualizations**: The script [`Deep Banding Map Generation`](src/Deep_Banding_Map.py) explains the working of Deep Banding Index by generating Deep Banding Maps for HD images.
 
 ### 5. Codes for comparing models
 
