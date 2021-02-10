@@ -57,6 +57,10 @@ A. Kapoor, J. Sapra and Z. Wang, ["Capturing banding in images: database constru
 #### 2.2 [Banding Patches Dataset](https://zenodo.org/record/3926181#.Xv4vg3X0kUd)
 
    - **Download**: The dataset is available on Zenodo under a Creative Commons Attribution license: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4512571.svg)](https://doi.org/10.5281/zenodo.4512571)
+   - The Dataset features 169,501 patches of size 235x235. These patches were used to train a CNN classier which can be further used to obtain Deep Banding Index for a Banded Image. The Dataset folder features training, validation, and testing dataset, each such folder further contains banded and nonbanded patches.
+   - The distribution of patches in the dataset is explained as below: <br>
+![](Results_and_visualizations/DatasetDistribution.PNG)
+
 
 
 ### 3. Prerequisites
