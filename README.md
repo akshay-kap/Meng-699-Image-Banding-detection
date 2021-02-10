@@ -25,7 +25,11 @@ OBJECTIVE ASSESSMENT"*](https://2021.ieeeicassp.org/).
 Banding, colour banding, or false contours is a common visual artifact appearing in images and videos, often in large regions of low textures and slow gradients such as sky. When the granularity of bit-depth or display intensity levels mismatches with the visual system’s perception of the smooth transition of color and luminance presented in the image content,the discontinuity positions in smooth image gradients are transformed into perceivable, wide, discrete bands. Banding significantly deteriorates the perceptual quality-of-experience(QoE) of end users. A visual example is shown in the image below where banding artifacts are clearly visible in the sky.
 <br>
 
-- ![](/Results_and_visualizations/Banding_Illustration.PNG)
+ ![](/Results_and_visualizations/Banding_Illustration.PNG)
+ 
+ <br>
+ 
+ The [`Deep Banding Index Paper ADD Link`](https://2021.ieeeicassp.org/) introduces [first of its kind dataset: Add links](https://2021.ieeeicassp.org/) , [first of its kind dataset: Add links2](https://2021.ieeeicassp.org/) and an Objective Assesment of Banding quantification in HD images.
 
 #### 1.1 Backgrounds
 
