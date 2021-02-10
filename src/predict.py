@@ -5,7 +5,6 @@
 
 # Importing relevant Libraries
 import os
-import PIL
 import cv2
 import numpy as np
 import tensorflow as tf
