@@ -11,5 +11,9 @@ These rectangular masking coordinates were generated using [`LabelImg`](https://
   - Refer [`Training Script`](train.py) for CNN_classifier Training for Banded vs NonBanded classification tasks.
 - **Calculating Scores Using Deep Banding Index**: Deep Banding Index is calculated using CNN_model Classifer and the methodology described in the [`DBI paper Add Link`](). 
   - Refer [`Deep Banding Index Prediction Script`](predict.py) for using DBI for out of sample image.
-    - Dependencies are [`Pillow, OpenCV, numpy, tensorflow -2.1, pandas`] 
- - **Generating Banding Visualizations**: Use the script as [``]()
+    - Dependencies are [`OpenCV, numpy, tensorflow -2.1, pandas`] 
+ - **Generating Banding Visualizations**: The script [`Deep Banding Map Generation`](Deep_Banding_Map.py) explains the working of Deep Banding Index by generating Deep Banding Maps for HD images.
+  - For a typical Quantized Image as 
+   ![]()
+  - The following Deep Banding Map is generated using Deep Banding index methodology for above Image:
+   ![]()
