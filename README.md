@@ -79,7 +79,16 @@ The code has been tested on `Ubuntu 18.04` and on `Windows 10` with `Python 3.8`
 
 ### 4.Relevant Source Codes
 
-Use [`predict.py`](src/predict.py) to
+The [`Source`](src/) folder contains the source files used for generating semi-automatic labelled dataset, CNN_classifier training files and prediction file which can be used for generating Deep Banding index for any image. 
+   - **XML to CSV:** the mask generated for HD images of size 1920x1080 were stored in XML files, these XML files contain information about the rectangular masking coordinates. These rectangular masking coordinates were generated using [`LabelImg`](https://github.com/tzutalin/labelImg).
+   - Refer [`XML_to_CSV`](xml_to_csv.py) for the code used to convert XML files region infomation to CSV files.
+   - **Patches Generation:** The patches are generated using heuristic rules from HD images and the obatined csv file about banded, non banded region information.
+   - Refer [`Patche Generation From HD Images`](Generating_patches_from_HD_images.py)
+- **CNN Classifier Training**: The CNN Classifier is trained using the [`Bannding Patches Dataset`](https://zenodo.org/badge/DOI/10.5281/zenodo.4512571.svg).
+  - Refer [`Training Script`](train.py) for CNN_classifier Training for Banded vs NonBanded classification tasks.
+- **Calculating Scores Using Deep Banding Index**: Deep Banding Index is calculated using CNN_model Classifer and the methodology described in the [`DBI paper`](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_banding.pdf). 
+  - Refer [`Deep Banding Index Prediction Script`](predict.py) for using DBI for out of sample image.
+ - **Generating Banding Visualizations**: The script [`Deep Banding Map Generation`](Deep_Banding_Map.py) explains the working of Deep Banding Index by generating Deep Banding Maps for HD images.
 
 ### 5. Codes for comparing models
 
