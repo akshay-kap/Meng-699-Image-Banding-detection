@@ -38,8 +38,9 @@ The following results are obtained using the method described in [`Link to paper
  ![](/Results_and_visualizations/Performance_Comparison.PNG)
 
 #### 1.4 Citation
+Please cite our paper if you find our model or the [Banding Patches Dataset](https://doi.org/10.5281/zenodo.4513740), [HD Images Dataset with Banded and NonBanded region Information](https://doi.org/10.5281/zenodo.4513740) dataset useful.
 
-
+A. Kapoor, J. Sapra and Z. Wang, ["Capturing banding in images: database construction and objective assessment,"](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_banding.pdf) IEEE International Conference on Acoustics, Speech and Signal Processing, Jun. 2021.
 
 
 ### 2. Dataset
