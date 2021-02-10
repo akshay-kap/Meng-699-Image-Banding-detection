@@ -10,13 +10,13 @@ OBJECTIVE ASSESSMENT"*](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_
   * [1.3 Results](#13-results)
   * [1.4 Citation](#14-citation)
 - [2. Dataset](#2-dataset)
-  * [2.1 Banding Patches Dataset](#21-tcgafocus)
-  * [2.2 HD Images Dataset with Banded and NonBanded Region Information](#22-focuspath-full)
+  * [2.1 Banding Patches Dataset](#21-HD Images Dataset with Banded and NonBanded region Information)
+  * [2.2 HD Images Dataset with Banded and NonBanded Region Information](#22-Banding Patches Dataset)
 - [3. Prerequest](#3-prerequest)
   * [3.1 Environment](#31-environment)
   * [3.2 Packages](#32-packages)
   * [3.3 Pretrained Models](#33-pretrained-models)
-- [4. Python Demo for testing a single image](#4-running-the-code)
+- [4. Relevant Source Codes](#4-Relevant Source Codes)
 - [5. Codes for comparing models](#5-codes-for-comparing-models)
 - [6. License](#6-license)
 
@@ -67,22 +67,24 @@ A. Kapoor, J. Sapra and Z. Wang, ["Capturing banding in images: database constru
 
 #### 3.1 Environment
 
-The code has been tested on `Ubuntu 18.04` with `Python 3.8` and `tensorflow 2.1`
+The code has been tested on `Ubuntu 18.04` and on `Windows 10` with `Python 3.8` and `tensorflow 2.1`
 
 #### 3.2 Packages
 
-`tensorflow-gpu=2.1`, `statistics`, `pandas`, `pillow` (or `pillow-simd`)
+`tensorflow-gpu=2.1`, `statistics`, `pandas`, `numpy`, `python 3.8` and `OpenCV`
 
 #### 3.3 Pretrained Models
 
-  - Pretrained models could be found in folder `pretrained_model/`
+  - The Pretrained CNN Classifier model could be found in folder `pretrained_model/`
 
-### 4. Running the code
+### 4.Relevant Source Codes
 
-
-#### 4.1 Python Demo for testing a single image (heatmap available)
-
-Use [predict.py](`src/predict.py`)
+Use [`predict.py`](src/predict.py) to
 
 ### 5. Codes for comparing models
+
+refer [](/)
+
+### 6. License
+
 
