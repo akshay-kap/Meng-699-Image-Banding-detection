@@ -6,4 +6,4 @@ These rectangular masking coordinates were generated using [`LabelImg`](https://
 - The patches are generated using heuristic rules from HD images and the obatined csv file about banded, non banded region information.
   - Refer [`Patche Generation From HD Images`](Generating_patches_from_HD_images.py)
   - The image below shows how these patches are extratced from a HD image.     
-  -                 ![](Patches_Generation.png)
+    - ![](Patches_Generation.png)
