@@ -50,9 +50,7 @@ A. Kapoor, J. Sapra and Z. Wang, ["Capturing banding in images: database constru
 #### 2.1 [HD Images Dataset with Banded and NonBanded region Information](https://zenodo.org/)
   - **Download**: The dataset is available on Zenodo under a Creative Commons Attribution license: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4513740.svg)](https://doi.org/10.5281/zenodo.4513740).
   - This dataset features 1250+ HD images with their quantized version along with XML files which give information about these regions.
-  - refer python scripts [`Patches Generation from HD images`](src/Generating_patches_from_HD_images.py)
-  - Also the image below explains the patches generation from HD images 
-    - ![](src/Patches_Generation.png)
+  - refer python script: [`Patches Generation from HD images`](src/Generating_patches_from_HD_images.py) for understanding semi automatic labelling procedure, Also the image below illustrates the patches generation from HD images ![](src/Patches_Generation.png)
 
 
 #### 2.2 [Banding Patches Dataset](https://zenodo.org/record/3926181#.Xv4vg3X0kUd)
