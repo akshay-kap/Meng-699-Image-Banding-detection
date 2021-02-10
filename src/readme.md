@@ -7,4 +7,9 @@ These rectangular masking coordinates were generated using [`LabelImg`](https://
   - Refer [`Patche Generation From HD Images`](Generating_patches_from_HD_images.py)
   - The image below shows how these patches are extratced from a HD image.     
      ![](Patches_Generation.png)
-- **CNN Classifier Training**: The CNN Classifier is trained using 
+- **CNN Classifier Training**: The CNN Classifier is trained using the [`EDIT Patches Dataset Link`](https://github.com/tzutalin/labelImg).
+  - Refer [`Training Script`](train.py) for CNN_classifier Training for Banded vs NonBanded classification tasks.
+- **Calculating Scores Using Deep Banding Index**: Deep Banding Index is calculated using CNN_model Classifer and the methodology described in the [`DBI paper Add Link`](). 
+  - Refer [`Deep Banding Index Prediction Script`](predict.py) for using DBI for out of sample image.
+    - Dependencies are [ Pillow, OpenCV, numpy, tensorflow -2.1, pandas] 
+ - **Generating Banding Visualizations**: Use the script as [``]()
