@@ -34,6 +34,7 @@ Banding, colour banding, or false contours is a common visual artifact appearing
 This work is completed as a research project at University of Waterloo, Under guidance of Dr.Zhou Wang and Jatin Sapra MEng.
 
 #### 1.3 Results
+The following results are obtained using the method described in [`Link to paper ADD link`](https://2021.ieeeicassp.org/)
  ![](/Results_and_visualizations/Performance_Comparison.PNG)
 
 #### 1.4 Citation
