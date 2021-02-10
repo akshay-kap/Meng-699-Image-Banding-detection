@@ -13,8 +13,8 @@ These rectangular masking coordinates were generated using [`LabelImg`](https://
     - Dependencies are [`OpenCV, numpy, tensorflow -2.1, pandas`] 
  - **Generating Banding Visualizations**: The script [`Deep Banding Map Generation`](Deep_Banding_Map.py) explains the working of Deep Banding Index by generating Deep Banding Maps for HD images.
   - For a typical Quantized Image as:
-  <br>
+
    ![`Sample Quantized Image`](000001_0091.png)
   - The following Deep Banding Map is generated using Deep Banding index methodology for above Image:
-   <br>
+
    ![`Deep Banding Mask Generated`](000001_0091.png_Deep_Banding_Mak.jpg)
