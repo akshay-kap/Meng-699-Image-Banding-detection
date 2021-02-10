@@ -1,6 +1,6 @@
 ## DBI (Deep Banding Index)
 
-This is the official **Python Tensorflow** implementations of our ICASSP 2020 paper [*"CAPTURING BANDING IN IMAGES: DATABASE CONSTRUCTION AND
+This is the official **Python Tensorflow** implementations of our ICASSP 2021 paper [*"CAPTURING BANDING IN IMAGES: DATABASE CONSTRUCTION AND
 OBJECTIVE ASSESSMENT"*](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_banding.pdf).
 
 
