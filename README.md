@@ -1,7 +1,7 @@
 ## DBI (Deep Banding Index)
 
 This is the official **Python Tensorflow** implementations of our ICASSP 2020 paper [*"CAPTURING BANDING IN IMAGES: DATABASE CONSTRUCTION AND
-OBJECTIVE ASSESSMENT"*](https://2021.ieeeicassp.org/).
+OBJECTIVE ASSESSMENT"*](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_banding.pdf).
 
 
 - [1. Brief Introduction](#1-brief-introduction)
@@ -49,6 +49,11 @@ A. Kapoor, J. Sapra and Z. Wang, ["Capturing banding in images: database constru
 
 #### 2.1 [HD Images Dataset with Banded and NonBanded region Information](https://zenodo.org/)
   - **Download**: The dataset is available on Zenodo under a Creative Commons Attribution license: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4513740.svg)](https://doi.org/10.5281/zenodo.4513740).
+  - This dataset features 1250+ HD images with their quantized version along with XML files which give information about these regions.
+  - refer python scripts [`Patches Generation from HD images`](src/Generating_patches_from_HD_images.py)
+  - Also the image below explains the patches generation from HD images 
+  ![](src/Patches_Generation.png)
+
 
 #### 2.2 [Banding Patches Dataset](https://zenodo.org/record/3926181#.Xv4vg3X0kUd)
 
