@@ -44,18 +44,18 @@ This work is completed as a research project at University of Waterloo, Under gu
 ### 2. Dataset
 
 #### 2.1 [HD Images Dataset with Banded and NonBanded region Information](https://zenodo.org/)
-  - **Download**: The dataset is available on Zenodo under a Creative Commons Attribution license: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3910757.svg)](https://doi.org/10.5281/zenodo.3910757).
+  - **Download**: The dataset is available on Zenodo under a Creative Commons Attribution license: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4513740.svg)](https://doi.org/10.5281/zenodo.4513740).
 
 #### 2.2 [Banding Patches Dataset](https://zenodo.org/record/3926181#.Xv4vg3X0kUd)
 
-   - **Download**: The dataset is available on Zenodo under a Creative Commons Attribution license: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3926181.svg)](https://doi.org/10.5281/zenodo.3926181)
+   - **Download**: The dataset is available on Zenodo under a Creative Commons Attribution license: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4512571.svg)](https://doi.org/10.5281/zenodo.4512571)
 
 
-### 3. Prerequest
+### 3. Prerequisites
 
 #### 3.1 Environment
 
-The code has been tested on `Ubuntu 18.04` with `Python 3.8` and `cuda 10.2`
+The code has been tested on `Ubuntu 18.04` with `Python 3.8` and `tensorflow 2.1`
 
 #### 3.2 Packages
 
