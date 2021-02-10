@@ -52,7 +52,7 @@ A. Kapoor, J. Sapra and Z. Wang, ["Capturing banding in images: database constru
   - This dataset features 1250+ HD images with their quantized version along with XML files which give information about these regions.
   - refer python scripts [`Patches Generation from HD images`](src/Generating_patches_from_HD_images.py)
   - Also the image below explains the patches generation from HD images 
-  ![](src/Patches_Generation.png)
+![](src/Patches_Generation.png)
 
 
 #### 2.2 [Banding Patches Dataset](https://zenodo.org/record/3926181#.Xv4vg3X0kUd)
