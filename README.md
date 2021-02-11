@@ -95,5 +95,10 @@ The [`Source`](src/) folder contains the source files used for generating semi-a
 refer [`MATLAB Scripts`](MATLAB-scripts-for-comparison/)
 
 ### 6. Demo
-We are working on it.
+Use this folder structure to calculate Deep Banding Index for your images, follow these steps to get Deep Banding Score for HD banded Images:
+- Download [`Demo`](Meng-699-Image-Banding-detection/Demo) folder.
+- Put the HD images in [`Image Path Folder`](Meng-699-Image-Banding-detection/Demo/Given_image_path/)
+- Run [`DBI Predict File`](Meng-699-Image-Banding-detection/Demo/predict.py), make sure you have the following dependencies on your device 
+  - [`Tensorflow 2.1, numpy, pandas, Open-CV`], and you have [`CNN_Banded Patch classifer`](Meng-699-Image-Banding-detection/Demo/CNN_classifier/) in the same path as presented in Demo folder.
+- open the [`CSV Result File`](Meng-699-Image-Banding-detection/Demo/banding_score_results.csv) to see the results associated with the HD images present in the [`Image Path Folder`](Meng-699-Image-Banding-detection/Demo/Given_image_path/). 
 
