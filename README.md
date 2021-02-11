@@ -12,7 +12,7 @@ OBJECTIVE ASSESSMENT"*](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_
 - [2. Dataset](#2-dataset)
   * [2.1 Banding Patches Dataset](#2-dataset)
   * [2.2 HD Images Dataset with Banded and NonBanded Region Information](#2-dataset)
-- [3. Prerequest](#3-prerequest)
+- [3. Prerequisite](#3-prerequisite)
   * [3.1 Environment](#31-environment)
   * [3.2 Packages](#32-packages)
   * [3.3 Pretrained Models](#33-pretrained-models)
