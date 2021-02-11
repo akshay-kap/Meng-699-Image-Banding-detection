@@ -16,9 +16,9 @@ OBJECTIVE ASSESSMENT"*](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_
   * [3.1 Environment](#31-environment)
   * [3.2 Packages](#32-packages)
   * [3.3 Pretrained Models](#33-pretrained-models)
-- [4. Relevant Source Codes](#4-Relevant Source Codes)
+- [4. Relevant Source Codes](#4-relevant-source-codes)
 - [5. Codes for comparing models](#5-codes-for-comparing-models)
-- [6. Demo](#6 Demo)
+- [6. Demo](#6-demo)
 
 
 ### 1. Brief Introduction
