@@ -18,7 +18,7 @@ OBJECTIVE ASSESSMENT"*](https://ece.uwaterloo.ca/~z70wang/publications/icassp21_
   * [3.3 Pretrained Models](#33-pretrained-models)
 - [4. Relevant Source Codes](#4-Relevant Source Codes)
 - [5. Codes for comparing models](#5-codes-for-comparing-models)
-- [6. License](#6-license)
+- [6. Demo](#6 Demo)
 
 
 ### 1. Brief Introduction
@@ -92,8 +92,8 @@ The [`Source`](src/) folder contains the source files used for generating semi-a
 
 ### 5. Codes for comparing models
 
-refer [`Jatin Please help me out here`](/)
+refer [`MATLAB Scripts`](MATLAB-scripts-for-comparison/)
 
-### 6. License
-
+### 6. Demo
+We are working on it.
 
